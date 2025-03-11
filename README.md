@@ -14,10 +14,6 @@ This repository provides custom builds of the Jellyfin Android TV app with addit
 - Implemented a **subtitle delay feature** to allow fine-tuning the timing of external subtitles.
 - Users can manually adjust subtitle synchronization to match the audio.
 
-### 3. **Enhanced Subtitle Management**
-- Improved UI for selecting and managing external subtitles.
-- Faster loading and better error handling when fetching subtitles.
-
 ## Why Was This Not Merged into Official Jellyfin?
 The original Pull Request ([#4502](https://github.com/jellyfin/jellyfin-androidtv/pull/4502)) was rejected due to the following reasons:
 - **Implementation concerns**: The maintainers had reservations about how the online subtitle integration was implemented.
