@@ -30,7 +30,7 @@ Since these features are useful for many users, I will continue maintaining them
 - Possible new features based on community feedback
 
 ## How to Install
-1. Download the latest release from the [Releases](https://github.com/YOUR_REPO/releases) page.
+1. Download the latest release from the [Releases](https://github.com/ahmethascelik/releases) page.
 2. Install the APK on your Android TV device.
 3. Enable external subtitle fetching in the settings.
 
