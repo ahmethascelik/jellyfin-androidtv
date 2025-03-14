@@ -86,6 +86,7 @@ val versionTxt by tasks.registering {
 
 dependencies {
 	// Jellyfin
+	implementation(projects.onlinesubtitles)
 	implementation(projects.playback.core)
 	implementation(projects.playback.jellyfin)
 	implementation(projects.playback.media3.exoplayer)

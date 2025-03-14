@@ -1,4 +1,4 @@
-package org.jellyfin.androidtv.ui.preference.custom
+package org.jellyfin.androidtv.onlinesubtitles.preference.widgets
 
 import android.content.Context
 import android.util.AttributeSet

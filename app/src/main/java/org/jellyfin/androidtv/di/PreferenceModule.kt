@@ -1,5 +1,6 @@
 package org.jellyfin.androidtv.di
 
+import org.jellyfin.androidtv.onlinesubtitles.preference.OnlineSubtitlePreferences
 import org.jellyfin.androidtv.preference.LiveTvPreferences
 import org.jellyfin.androidtv.preference.PreferencesRepository
 import org.jellyfin.androidtv.preference.SystemPreferences
@@ -16,4 +17,5 @@ val preferenceModule = module {
 	single { UserPreferences(get()) }
 	single { SystemPreferences(get()) }
 	single { TelemetryPreferences(get()) }
+	single { OnlineSubtitlePreferences(get()) }
 }

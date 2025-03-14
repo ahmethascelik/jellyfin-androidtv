@@ -1,4 +1,4 @@
-package org.jellyfin.androidtv.ui.preference.dsl
+package org.jellyfin.androidtv.onlinesubtitles.preference.dsl
 
 import android.content.Context
 import androidx.annotation.StringRes
@@ -33,14 +33,6 @@ class OptionsScreen(
 	fun link(init: OptionsLink.() -> Unit) {
 		val category = OptionsCategory(context)
 		category += OptionsLink(context).apply { init() }
-
-		nodes.add(category)
-	}
-
-	@OptionsDSL
-	fun linkToOnlineSubtitles(init: OptionsLinkToOnlineSubtiles.() -> Unit) {
-		val category = OptionsCategory(context)
-		category += OptionsLinkToOnlineSubtiles(context).apply { init() }
 
 		nodes.add(category)
 	}

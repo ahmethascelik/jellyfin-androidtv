@@ -18,7 +18,7 @@ import org.jellyfin.androidtv.ui.preference.dsl.enum
 import org.jellyfin.androidtv.ui.preference.dsl.link
 import org.jellyfin.androidtv.ui.preference.dsl.optionsScreen
 import org.jellyfin.androidtv.ui.preference.dsl.seekbar
-import org.jellyfin.androidtv.ui.preference.screen.onlinesubtitles.OnlineSubtitlesPreferencesScreen
+import org.jellyfin.androidtv.onlinesubtitles.preference.onlinesubtitles.OnlineSubtitlesPreferencesScreen
 import org.jellyfin.preference.store.PreferenceStore
 import org.jellyfin.sdk.model.api.MediaSegmentType
 import org.koin.android.ext.android.inject
@@ -222,7 +222,7 @@ class PlaybackPreferencesScreen : OptionsFragment() {
 				}
 			}
 
-			link {
+			linkToOnlineSubtitles {
 				title = "Online Subtitles"
 				icon = R.drawable.ic_select_subtitle
 				withFragment<OnlineSubtitlesPreferencesScreen>()
